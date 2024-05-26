@@ -1,0 +1,39 @@
+$(document).ready(function(){
+   $('#signup').validate({
+    rules:{
+        fname:{
+            required:true,
+            minlength:5,
+        },
+        sname:{
+            required:true,
+            minlength:5,
+        },
+        email:{
+            required:true,
+        },
+        password:{
+            required:true,
+            minlength:10,
+        },
+        day:{
+            required:true,
+        },
+        month:{
+            required:true,
+        },
+        year:{
+            required:true,
+        },
+        gender:{
+            required:true,
+        }
+    },
+      messages:{
+        fname:{
+            required:"please enter the first name",
+            minlength:"please enter min 5 letters"
+        }
+      }
+   });
+});

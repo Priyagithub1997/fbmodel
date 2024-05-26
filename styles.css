@@ -1,0 +1,125 @@
+.main-div
+{
+    background-color: rgba(214, 206, 206, 0.8);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    
+}
+h1 {
+    margin: 0;
+}
+#logo
+{
+    font-size: 40px;
+    color: #090992;
+    padding: 15px 0px;
+}
+body{
+    font-family:'roboto';
+}
+.signup-form{
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form-heading{
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+}
+h2 {
+    margin: 0px;
+   
+}
+p{
+    margin: 4px;
+}
+input{
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 100%;  
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+select{
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 5px; 
+    margin-bottom: 10px;
+    font-size: 15px;
+    
+}
+
+.input-fields{
+    display: flex;
+    padding-top: 10px;
+    justify-content:space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-wrap: wrap;
+}
+.half-width{
+    display: flex;
+    width: 48%;
+}
+.full-width{
+    display: flex;
+    width: 100%;
+}
+label
+{
+    color: gray;
+    padding-bottom: 10px;
+}
+.dob-div,.gender-div{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.quat-width{
+    display: flex;
+    width: 32%;
+}
+
+
+
+.radio{
+    display: flex;
+    width: 29%;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px; 
+    margin-bottom: 10px;
+    font-size: 15px;
+    
+
+}
+.signup-btn{
+    background-color: green;
+    border: 0;
+    color: white;
+    padding: 8px 80px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 200;
+    
+}
+.signup-div,.account-div
+{
+    padding:  10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
